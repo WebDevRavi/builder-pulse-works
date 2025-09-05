@@ -17,7 +17,7 @@ const projects = [
       "An immersive, game-like world built in Blender with custom foliage shaders and atmospheric lighting.",
   },
   {
-    title: "Minimal Chair – Product Visualization",
+    title: "F1 – Product Visualization",
     category: "Product Visualization" as const,
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2Feed189ce710b4cea8ff770c8989542ac",
