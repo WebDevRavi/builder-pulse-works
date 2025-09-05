@@ -16,7 +16,7 @@ export default function Featured() {
           Featured Content
         </motion.h2>
         <div className="grid gap-6 md:grid-cols-2">
-          <div className="rounded-xl border p-6">
+          <a href="https://www.youtube.com/watch?v=ZKOxFxSfgFY" target="_blank" rel="noreferrer" className="rounded-xl border p-6 flex flex-col cursor-pointer">
             <div className="flex items-center gap-3">
               <Youtube className="text-red-500" />
               <h3 className="font-semibold">YouTube – Blue3D</h3>
@@ -24,12 +24,7 @@ export default function Featured() {
             <p className="mt-2 text-muted-foreground">
               Blender tutorials, add-on showcases, and behind-the-scenes breakdowns.
             </p>
-            <a
-              href="https://youtu.be/ZKOxFxSfgFY"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-4 aspect-video overflow-hidden rounded-lg flex cursor-pointer"
-            >
+            <a href="https://www.youtube.com/watch?v=ZKOxFxSfgFY" target="_blank" rel="noreferrer" className="mt-4 aspect-video overflow-hidden rounded-lg flex">
               <iframe
                 className="h-full w-full"
                 src="https://www.youtube.com/embed/videoseries?list=PLNs2tG_iRkQ"
@@ -38,12 +33,14 @@ export default function Featured() {
                 allowFullScreen
               />
             </a>
-            <Button asChild className="mt-4">
-              <a target="_blank" href="https://www.youtube.com/@Blue3D_aaki/featured" rel="noreferrer" className="cursor-pointer pointer-events-auto">
-                Visit Channel
-              </a>
-            </Button>
-          </div>
+            <div className="mt-4">
+              <Button asChild>
+                <a target="_blank" href="https://www.youtube.com/@Blue3D_aaki/featured" rel="noreferrer" className="cursor-pointer pointer-events-auto">
+                  Visit Channel
+                </a>
+              </Button>
+            </div>
+          </a>
           <div className="rounded-xl border p-6">
             <div className="flex items-center gap-3">
               <Instagram className="text-pink-500" />
