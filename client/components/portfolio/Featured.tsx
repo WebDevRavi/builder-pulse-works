@@ -34,7 +34,7 @@ export default function Featured() {
               />
             </div>
             <Button asChild className="mt-4">
-              <a target="_blank" href="https://www.youtube.com" rel="noreferrer">
+              <a target="_blank" href="https://www.youtube.com/@Blue3D_aaki/featured" rel="noreferrer" className="cursor-pointer pointer-events-auto">
                 Visit Channel
               </a>
             </Button>
