@@ -108,8 +108,7 @@ export default function Projects() {
                     <img
                       src={p.image}
                       alt={p.title}
-                      className={`${p.tall ? 'h-[500px] sm:h-[500px]' : 'h-60'} w-full object-cover transition-transform duration-300 group-hover:scale-105`}
-                      style={p.tall ? { alignSelf: 'stretch' } : undefined}
+                      className="h-[740px] w-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                     <div className="absolute left-3 top-3">
                       <Badge className="rounded-full bg-background/90 text-foreground backdrop-blur">
