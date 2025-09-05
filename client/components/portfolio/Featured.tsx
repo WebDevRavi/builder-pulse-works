@@ -24,7 +24,12 @@ export default function Featured() {
             <p className="mt-2 text-muted-foreground">
               Blender tutorials, add-on showcases, and behind-the-scenes breakdowns.
             </p>
-            <div className="mt-4 aspect-video overflow-hidden rounded-lg">
+            <a
+              href="https://youtu.be/ZKOxFxSfgFY"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 aspect-video overflow-hidden rounded-lg flex cursor-pointer"
+            >
               <iframe
                 className="h-full w-full"
                 src="https://www.youtube.com/embed/videoseries?list=PLNs2tG_iRkQ"
@@ -32,7 +37,7 @@ export default function Featured() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
-            </div>
+            </a>
             <Button asChild className="mt-4">
               <a target="_blank" href="https://www.youtube.com/@Blue3D_aaki/featured" rel="noreferrer" className="cursor-pointer pointer-events-auto">
                 Visit Channel
