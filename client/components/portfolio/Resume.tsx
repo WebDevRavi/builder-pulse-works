@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const achievements = [
-  { title: "Created Blender add-ons (RBC, Bagarain)", tag: "Tools" },
+  { title: "Blender, After Effects and Unreal Engine", tag: "Tools" },
   { title: "Built immersive environments", tag: "3D" },
   { title: "Content creation on YouTube – Blue3D", tag: "Content" },
   { title: "Storytelling projects – Mahabharata Legends", tag: "Narrative" },
