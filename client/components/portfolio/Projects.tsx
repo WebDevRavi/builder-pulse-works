@@ -44,9 +44,10 @@ const projects = [
     title: "Restaurant Management System",
     category: "Development" as const,
     image:
-      "https://images.unsplash.com/photo-1452968011977-4d8c23091bac?q=80&w=1200&auto=format&fit=crop",
+      "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F24ab000e267b4804a27eaecd30827068",
     description:
       "Python/SQL project managing orders, inventory, and billing with a clean UI and robust data model.",
+    tall: true,
   },
   {
     title: "Sci‑Fi Canyon – 3D World",
