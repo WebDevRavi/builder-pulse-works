@@ -15,7 +15,7 @@ const resumeDataUrl =
 
 export default function Resume() {
   return (
-    <section id="resume" className="py-20">
+    <section id="resume" className="py-20 scroll-mt-24">
       <div className="container">
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
