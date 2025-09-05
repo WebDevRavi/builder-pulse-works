@@ -42,11 +42,6 @@ export default function About() {
               <h3 className="font-semibold">Started YouTube – Blue3D</h3>
               <p className="text-muted-foreground">Sharing Blender tutorials and creative experiments.</p>
             </li>
-            <li className="mb-8">
-              <div className="absolute -left-[9px] top-1 h-2 w-2 rounded-full bg-primary" />
-              <h3 className="font-semibold">Created Add-ons – RBC & Bagarain</h3>
-              <p className="text-muted-foreground">Tools for car rigging and rain simulation in Blender.</p>
-            </li>
             <li>
               <div className="absolute -left-[9px] top-1 h-2 w-2 rounded-full bg-primary" />
               <h3 className="font-semibold">Future – CSE AIML</h3>
