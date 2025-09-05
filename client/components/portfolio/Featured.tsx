@@ -16,7 +16,7 @@ export default function Featured() {
           Featured Content
         </motion.h2>
         <div className="grid gap-6 md:grid-cols-2">
-          <a href="https://www.youtube.com/watch?v=ZKOxFxSfgFY" target="_blank" rel="noreferrer" className="rounded-xl border p-6 flex flex-col cursor-pointer">
+          <div className="rounded-xl border p-6 flex flex-col">
             <div className="flex items-center gap-3">
               <Youtube className="text-red-500" />
               <h3 className="font-semibold">YouTube – Blue3D</h3>
@@ -40,7 +40,7 @@ export default function Featured() {
                 </a>
               </Button>
             </div>
-          </a>
+          </div>
           <div className="rounded-xl border p-6">
             <div className="flex items-center gap-3">
               <Instagram className="text-pink-500" />
