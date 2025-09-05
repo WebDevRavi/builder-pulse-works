@@ -12,7 +12,7 @@ const projects = [
     title: "Misty Highlands – 3D Environment",
     category: "Environment" as const,
     image:
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop",
+      "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F6ce745d7af0a488bba3f000d61abfe54",
     description:
       "An immersive, game-like world built in Blender with custom foliage shaders and atmospheric lighting.",
   },
