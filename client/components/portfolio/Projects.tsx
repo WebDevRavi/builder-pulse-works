@@ -41,12 +41,12 @@ const projects = [
       "Vehicle rigging toolkit enabling rig-based control for smooth animation and camera-ready car shots.",
   },
   {
-    title: "Restaurant Management System",
+    title: "Action-Adventure | Open World",
     category: "Development" as const,
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F24ab000e267b4804a27eaecd30827068",
     description:
-      "Python/SQL project managing orders, inventory, and billing with a clean UI and robust data model.",
+      "Explore a vast, rugged world where every detail feels alive. Uncover secrets hidden in rocky landscapes and forgotten places. Experience fluid combat and immersive storytelling.",
     tall: true,
   },
 ];
