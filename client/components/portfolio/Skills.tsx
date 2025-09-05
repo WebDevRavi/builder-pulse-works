@@ -44,7 +44,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-20 scroll-mt-24">
       <div className="container">
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
