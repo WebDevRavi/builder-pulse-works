@@ -36,7 +36,7 @@ const projects = [
     title: "RBC – Car Rigging",
     category: "VFX" as const,
     image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
+      "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F57aeea6d50004db4abc9e6f1931996d1",
     description:
       "Vehicle rigging toolkit enabling rig-based control for smooth animation and camera-ready car shots.",
   },
