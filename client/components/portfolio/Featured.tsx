@@ -27,7 +27,7 @@ export default function Featured() {
             <a href="https://www.youtube.com/watch?v=ZKOxFxSfgFY" target="_blank" rel="noreferrer" className="mt-4 aspect-video overflow-hidden rounded-lg flex">
               <iframe
                 className="h-full w-full"
-                src="https://www.youtube.com/embed/videoseries?list=PLNs2tG_iRkQ"
+                src="https://www.youtube.com/embed/ZKOxFxSfgFY"
                 title="Blue3D YouTube"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
