@@ -50,7 +50,7 @@ export default function Hero() {
           <img
             alt="Ravi Solanki avatar"
             className="h-full w-full rounded-xl object-cover shadow-2xl ring-1 ring-border"
-            src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?q=80&w=600&auto=format&fit=crop"
+            src="https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F1e987e88aeab4222b9bfc9ec7e4a8403"
           />
           <div className="pointer-events-none absolute -inset-10 -z-10 rounded-[2.5rem] bg-gradient-to-tr from-primary/20 to-foreground/10 blur-3xl" />
         </motion.div>
