@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Featured() {
   return (
-    <section id="featured" className="py-20">
+    <section id="featured" className="py-20 scroll-mt-24">
       <div className="container">
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
