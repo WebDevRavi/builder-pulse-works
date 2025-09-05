@@ -49,9 +49,9 @@ export default function Featured() {
             <p className="mt-2 text-muted-foreground">Design posts, quick tips, and artwork.</p>
             <div className="mt-4 grid grid-cols-3 gap-2">
               {[
-                "https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?q=80&w=400&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1506089645678-3e82f36db5a4?q=80&w=400&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=400&auto=format&fit=crop",
+                "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2Ffc8e133958f445489fa1d0a14df36889",
+                "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2Fdb23446a9a894340ad39cb3a351cabf5",
+                "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2Fb3abcf77abed415aad83ae261eba0dd3",
               ].map((src) => (
                 <img key={src} src={src} alt="instagram preview" className="aspect-square w-full rounded-lg object-cover" />
               ))}
