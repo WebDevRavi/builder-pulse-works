@@ -28,7 +28,7 @@ const projects = [
     title: "Bagarain – Rain VFX",
     category: "VFX" as const,
     image:
-      "https://images.unsplash.com/photo-1523395243481-163f8f6155d2?q=80&w=1200&auto=format&fit=crop",
+      "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2F5b7fc1c7c89e47cabb24e6350e6643f6",
     description:
       "A procedural rain simulation system designed for Blender, used to create dynamic storm scenes.",
   },
