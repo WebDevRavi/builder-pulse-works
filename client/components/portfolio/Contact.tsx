@@ -54,13 +54,13 @@ export default function Contact() {
           </form>
           <div className="rounded-xl border p-6">
             <h3 className="font-semibold">Reach me</h3>
-            <p className="mt-2 text-muted-foreground">Email: <a className="underline" href="mailto:ravi@example.com">ravi@example.com</a></p>
+            <p className="mt-2 text-muted-foreground">Email: <a className="underline cursor-pointer pointer-events-auto" href="mailto:ravisolanki969197@gmail.com">ravisolanki969197@gmail.com</a></p>
             <div className="mt-4 flex flex-wrap gap-3">
-              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="https://www.instagram.com" target="_blank" rel="noreferrer"><Instagram size={16}/> Instagram</a>
-              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="https://www.youtube.com" target="_blank" rel="noreferrer"><Youtube size={16}/> YouTube</a>
-              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="https://github.com" target="_blank" rel="noreferrer"><Github size={16}/> GitHub</a>
-              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="https://www.linkedin.com" target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn</a>
-              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="mailto:ravi@example.com" target="_blank" rel="noreferrer"><Mail size={16}/> Email</a>
+              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent cursor-pointer pointer-events-auto" href="https://www.instagram.com/blue3d_/" target="_blank" rel="noreferrer"><Instagram size={16}/> <span className="pointer-events-auto">Instagram</span></a>
+              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent cursor-pointer pointer-events-auto" href="https://www.youtube.com/@Blue3D_aaki/videos" target="_blank" rel="noreferrer"><Youtube size={16}/> <span className="pointer-events-auto">YouTube</span></a>
+              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent" href="https://github.com" target="_blank" rel="noreferrer"><Github size={16}/> <span>GitHub</span></a>
+              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent cursor-pointer pointer-events-auto" href="https://www.linkedin.com/in/ravi-solanki-bb2420375" target="_blank" rel="noreferrer"><Linkedin size={16}/> <span className="pointer-events-auto">LinkedIn</span></a>
+              <a className="inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm hover:bg-accent cursor-pointer pointer-events-auto" href="mailto:ravisolanki969197@gmail.com" target="_blank" rel="noreferrer"><Mail size={16}/> <span className="pointer-events-auto">Email</span></a>
             </div>
           </div>
         </div>
