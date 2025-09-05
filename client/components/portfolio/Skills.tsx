@@ -26,7 +26,7 @@ const skills = [
     category: "Creative Tools",
     icon: Wand2,
     items: [
-      { name: "Photoshop", level: 70 },
+      { name: "Blender", level: 70 },
       { name: "After Effects", level: 60 },
       { name: "Rendering", level: 80 },
     ],
