@@ -20,7 +20,7 @@ const projects = [
     title: "Minimal Chair – Product Visualization",
     category: "Product Visualization" as const,
     image:
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop",
+      "https://cdn.builder.io/api/v1/image/assets%2F83d6decf804d4ad28638fae92e730109%2Feed189ce710b4cea8ff770c8989542ac",
     description:
       "Realistic studio renders focusing on material fidelity, soft shadows, and photographic composition.",
   },
