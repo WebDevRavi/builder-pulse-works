@@ -32,7 +32,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 scroll-mt-24">
       <div className="container">
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
