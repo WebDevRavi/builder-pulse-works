@@ -18,7 +18,7 @@ const skills = [
     icon: Code2,
     items: [
       { name: "Python", level: 75 },
-      { name: "SQL", level: 65 },
+      { name: "C", level: 65 },
       { name: "Blender Add-ons", level: 70 },
     ],
   },
