@@ -49,14 +49,6 @@ const projects = [
       "Python/SQL project managing orders, inventory, and billing with a clean UI and robust data model.",
     tall: true,
   },
-  {
-    title: "Sci‑Fi Canyon – 3D World",
-    category: "Environment" as const,
-    image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
-    description:
-      "A cinematic terrain study blending megascans and custom assets with volumetric fog and depth cues.",
-  },
 ];
 
 const categories: ("All" | Category)[] = [
