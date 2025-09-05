@@ -55,7 +55,7 @@ export default function Featured() {
               ))}
             </div>
             <Button asChild className="mt-4" variant="outline">
-              <a target="_blank" href="https://www.instagram.com" rel="noreferrer">
+              <a target="_blank" href="https://www.instagram.com/blue3d_/" rel="noreferrer" className="cursor-pointer pointer-events-auto">
                 Visit Instagram
               </a>
             </Button>
