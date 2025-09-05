@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-20 scroll-mt-24">
       <div className="container grid gap-10 md:grid-cols-2 md:items-start">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
